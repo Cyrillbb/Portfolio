@@ -1,0 +1,32 @@
+.Contacts {
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 96vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.Contacts__i {
+    transition: all ease 0.3s;
+    cursor: pointer;
+    color: white;
+    font-size: 5em;
+    width: 1em;
+    height: 1em;
+    text-align: center;
+    line-height: 0.5em;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 50%;
+    padding: 5px;
+}
+
+.Contacts__i:hover {
+    background-color: violet;
+    color: black;
+    scale: 1.1;
+}

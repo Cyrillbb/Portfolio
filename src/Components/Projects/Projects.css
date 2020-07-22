@@ -1,0 +1,18 @@
+.Projects {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-image: url(../../assets/background.jpg);
+    background-size: cover;
+    width: 100vw;
+    height: 96vh;
+}
+
+@media only screen and (max-width: 863px) {
+    .Projects {
+        height: 100%;
+        background-size: 100% 100%;
+
+    }
+}
+

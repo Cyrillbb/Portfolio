@@ -1,0 +1,44 @@
+.Card {
+    max-width: 600px;    
+    border: solid black 1px;
+    border-radius: 1em;
+    margin: 15px;
+    max-height: 460px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+
+.Card__img {    
+    max-width: 600px;
+}
+
+.Card__div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.Card__div__div {
+    margin: 5px;
+}
+
+@media only screen and (max-width: 1896px) {
+    .Card {
+        max-height: 360px;
+        max-width: 400px;
+    }
+    .Card__img {
+        max-width: 400px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .Card {
+        max-height: 360px;
+        max-width: 100%;
+    }
+    .Card__img {
+        max-width: 100%;
+    }
+}
+

@@ -1,0 +1,21 @@
+.ButtonLink {  
+    display: block;
+    cursor: pointer;
+    text-align: center;
+    line-height: 2em;
+    text-decoration: none;
+    font-size: larger;
+    color: rgb(255, 255, 255);
+    width: 8em;
+    height: 2em;
+    border: solid grey 1px;
+    border-radius: 0.3em;
+    transition: all ease 0.5s;
+    margin: 5px;
+}
+
+.ButtonLink:hover {
+    background-color: violet;
+    color: black;
+    border: solid black 1px;    
+}
