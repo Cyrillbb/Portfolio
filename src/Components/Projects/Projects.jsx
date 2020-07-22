@@ -9,9 +9,18 @@ function Projects() {
 
     return (
         <section className='Projects'>
-           <Card cardName={'MERN Anime Searcher app'} img={SearcherImg} />
-           <Card cardName={'Simple chat app'} img={ChatImg} />
-           <Card cardName={'Web page about space'} img={SpaceImg} />
+           <Card cardName={'MERN Anime Searcher app'} 
+           img={SearcherImg} 
+           link={'https://github.com/Cyrillbb/mernAnimeSearcher'}
+           liveLink='https://simple-anime-searcher.herokuapp.com/SimpleAnimeSearch' />
+           <Card cardName={'Simple chat app'} 
+           img={ChatImg} 
+           link={'https://github.com/Cyrillbb/SimpleChatServer'} 
+           liveLink='https://cyrils-simple-chat.herokuapp.com/'/>
+           <Card cardName={'Web page about space'} 
+           img={SpaceImg} 
+           link={'https://github.com/Cyrillbb/SpaceStuff'} 
+           liveLink='https://cyrillbb.github.io/SpaceStuff/'/>
         </section>
     )
 }

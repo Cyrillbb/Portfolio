@@ -3,7 +3,7 @@ import './ButtonLink.css';
 
 function ButtonLink({ link, name }) {
     return (
-        <a className='ButtonLink' href={link}>{name}</a>
+        <a className='ButtonLink' href={link} target='_blank' rel='noopener noreferrer'>{name}</a>
     )
 }
 

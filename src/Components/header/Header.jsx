@@ -9,12 +9,12 @@ function Header({ pathname }) {
 
     useEffect(() => {
         switch (pathname) {
-            case ('projects'):
+            case ('Portfolio/projects'):
                 homeRef.current.className = 'Header__Link';
                 contRef.current.className = 'Header__Link'
                 prRef.current.className = 'Header__Link--highlighted'
                 break;
-            case ('contacts'):
+            case ('Portfolio/contacts'):
                 homeRef.current.className = 'Header__Link';
                 contRef.current.className = 'Header__Link--highlighted';
                 prRef.current.className = 'Header__Link';
@@ -33,13 +33,13 @@ function Header({ pathname }) {
                 <h3 className='HeaderNav_h3'>My portfolio</h3>
                 <ul className='HeaderNav__ul' >
                     <li>
-                        <Link ref={homeRef} className='Header__Link' to='/'>Home</Link>
+                        <Link ref={homeRef} className='Header__Link' to='/Portfolio'>Home</Link>
                     </li>
                     <li>
-                        <Link ref={prRef} className='Header__Link' to='/projects'>Projects</Link>
+                        <Link ref={prRef} className='Header__Link' to='/Portfolio/projects'>Projects</Link>
                     </li>
                     <li>
-                        <Link ref={contRef} className='Header__Link' to='/contacts'>Contacts</Link>
+                        <Link ref={contRef} className='Header__Link' to='/Portfolio/contacts'>Contacts</Link>
                     </li>
                 </ul>
             </nav>

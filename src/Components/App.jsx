@@ -16,13 +16,13 @@ function App() {
         <div className='App'>
             <Header pathname={path} />
             <Switch>
-                <Route exact path='/'>
+                <Route exact path='/Portfolio'>
                     <Home />
                 </Route>
-                <Route exact path='/projects'>
+                <Route exact path='/Portfolio/projects'>
                     <Projects />
                 </Route>
-                <Route exact path='/contacts'>
+                <Route exact path='/Portfolio/contacts'>
                     <Contacts />
                 </Route>
             </Switch>

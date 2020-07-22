@@ -19,8 +19,8 @@ function Home() {
                 <li className="list-group-item">Socket.io</li>
                 <li className="list-group-item">Webpack</li>
             </ul>            
-            <Link className='Home__Link' to='/projects'>My projects <i className="fas fa-arrow-right"></i></Link>
-            <Link className='Home__LinkCont' to='/contacts'>My contacts <i className="fas fa-arrow-right"></i></Link>
+            <Link className='Home__Link' to='/Portfolio/projects'>My projects <i className="fas fa-arrow-right"></i></Link>
+            <Link className='Home__LinkCont' to='/Portfolio/contacts'>My contacts <i className="fas fa-arrow-right"></i></Link>
         </section>
     )
 }
